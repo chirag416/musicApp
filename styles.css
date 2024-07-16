@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+#playerControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#playPauseBtn {
+    border: none;
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.custom-range {
+    width: 70%;
+    margin: 0 10px;
+}
+
+#songsList {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.list-group-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+.animate__animated {
+    animation-duration: 1s;
+}
